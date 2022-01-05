@@ -23,8 +23,8 @@
     display: flex;
     flex-direction: row;
     margin-top: 150px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 380px;
+    margin-right: 380px;
     margin-bottom: 150px;
     background-color: white;
     border-radius: 10px;
@@ -47,7 +47,7 @@ body {
     
     font-family: var(--font-family-title);
     color: var(--Very-Dark-Grayish-Blue);
-    font-size: 26.5px;
+    font-size: 23px;
     font-weight: 700;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -56,7 +56,7 @@ body {
 p{
     font-family: var(--font-family-title);
     font-weight: 500;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 1.5;
     color: var(--Desaturated-Dark-Blue);
 }
@@ -69,8 +69,8 @@ p{
 
 .name, .date {
     font-weight: 700;
-    font-size: 15px;
-    padding-right: 200px;
+    font-size: 12px;
+    padding-right: 60px;
 }
 
 .date{
@@ -81,8 +81,8 @@ p{
 .drawer-image {
     object-fit: cover;
     object-position: 0 0;
-    width: 350px;
-    height: 350px;
+    width: 290px;
+    height: 290px;
     border-radius: 10px 0 0 10px;
     display: block;
     margin-right: 50px;
@@ -95,7 +95,7 @@ p{
 
 .content {
     border-radius: 0 0 10px 10px;
-    padding-right: 40px; 
+    padding-right: 30px; 
     /* margin-left: 465px;  */
 }
 
@@ -105,20 +105,20 @@ p{
 }
 
 .namedate {
-    padding-top: 30px;
+    padding-top: 12px;
     display: flex;
     flex-direction: column;
 }
 
 .contact{
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .contact img{
     float: left;
     object-fit: cover;
-    width: 57px;
-    height: 57px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin-right: 20px;
     display: block;
@@ -131,19 +131,19 @@ button {
 .btn{
     background-color: var(--Light-Grayish-Blue);
     border-radius: 50%;
-    width: 2.3rem;
-    height: 2.3rem;
+    width: 2rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 15px;
+    margin-left: 140px;
 }
 
 .btn img {
-    width: 17px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
 }
 
 .bottom {
