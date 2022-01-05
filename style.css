@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
 :root {
     --mobile: 375px;
     --desktop: 1440px;
@@ -18,12 +20,16 @@
 }
 
 .container{
+    display: flex;
+    flex-direction: row;
     margin-top: 150px;
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 150px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+    /* width: 60vw; */
     /* border-radius: 10px 10px 10px 10px; */
 }
 
@@ -39,18 +45,18 @@ body {
 
 .title{
     
-    font: var(--font-family-title);
+    font-family: var(--font-family-title);
     color: var(--Very-Dark-Grayish-Blue);
-    font-size: 27px;
+    font-size: 26.5px;
     font-weight: 700;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
 p{
-    font: var(--font-family-title);
+    font-family: var(--font-family-title);
     font-weight: 500;
-    font-size: 17.5px;
+    font-size: 17px;
     line-height: 1.5;
     color: var(--Desaturated-Dark-Blue);
 }
@@ -58,51 +64,91 @@ p{
 .name{
     padding-top: 5px;
     color: var(--Very-Dark-Grayish-Blue);
+    font-weight: 700;
 }
 
 .name, .date {
     font-weight: 700;
+    font-size: 15px;
+    padding-right: 200px;
 }
 
 .date{
     color: var(--Grayish-Blue);
+    font-weight: 500;
 }
 
 .drawer-image {
     object-fit: cover;
-    object-position: -10% 0;
-    width: 435px;
-    height: 380px;
-    padding-right: 65px;
+    object-position: 0 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px 0 0 10px;
+    display: block;
+    margin-right: 50px;
     /* padding: 50px; */
 }
 
 .drawers{
     float: left;
-    border-radius: 10px 10px 0 0;
 }
 
 .content {
     border-radius: 0 0 10px 10px;
-    padding-top: 20px;
-    padding-right: 65px;
+    padding-right: 40px; 
+    /* margin-left: 465px;  */
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.namedate {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .contact img{
     float: left;
     object-fit: cover;
-    width: 60px;
-    height: 60px;
+    width: 57px;
+    height: 57px;
     border-radius: 50%;
     margin-right: 20px;
+    display: block;
+}
+
+button {
+    border: 0;
 }
 
 .btn{
-    float: right;
+    background-color: var(--Light-Grayish-Blue);
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.btn img {
+    width: 17px;
+    height: 17px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
 }
 
 .attribution { 
@@ -118,10 +164,35 @@ footer {
     width: 250px;
     height: 50px;
     display: flex;
-    color: #333333;
+    color: #000000;
     justify-content: center;
     align-items: center;
     font-size: 1.4rem;
     text-align: center;
     padding: 0 10px;
   }
+
+@media screen and (max-width: 766px)  {
+    .container {
+        margin-top: 150px;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 150px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 20vh;
+        max-width: 900px;
+    }
+
+    .drawer-image {
+        object-fit: cover;
+        width: 400px;
+        height: 100%;
+        border-radius: 10px 10px 0 0;
+        display: block;
+    }
+}
