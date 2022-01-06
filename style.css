@@ -221,6 +221,7 @@ footer {
 
     .drawer-image{
         margin-right: 0;
+        height: 260px;
     }
 
     .title{
@@ -232,7 +233,7 @@ footer {
     }
 
     .name, .date{
-        font-size: 17px;
+        font-size: 15px;
         padding-top: 15px;
         padding-right: 0;
     }
@@ -248,7 +249,7 @@ footer {
     }
 
     .contact img{
-        margin-top: 17px;
+        margin-top: 15px;
     }
 
     .date{
@@ -261,5 +262,6 @@ footer {
 
     footer{
         font-size: 4rem;
+        padding-top: 20px;
     }
 }
