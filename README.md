@@ -27,12 +27,12 @@ Users should be able to:
 ### Screenshot
 
 Desktop View
-![Inactive State](./screenshot.jpg)
-![Active State](./screenshot.jpg)
+![Inactive State](./screenshots/desktop-inactive.png)
+![Active State](./screenshots/desktop-active.png)
 
 Mobile View
-![Inactive State](./screenshot.jpg)
-![Active State](./screenshot.jpg)
+![Inactive State](./screenshots/mobile-inactive.jpg)
+![Active State](./screenshots/mobile-active.jpg)
 
 ### Links
 
@@ -57,7 +57,7 @@ I would like to practice implementing JavaScript in HTML more and CSS Grid or my
 
 ### Useful resources
 
-- [W3Schools](https://www.w3schools.com/css/) - This helped me in using pseudo-classes and in CSS.
+- [W3Schools](https://www.w3schools.com/css/) - This helped me in media query and active state for the JS implementation.
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) - This resource helped me a lot in using flexbox and CSS.
 
 ## Author
