@@ -31,8 +31,8 @@ Desktop View
 ![Active State](./screenshots/desktop-active.png)
 
 Mobile View
-![Inactive State](./screenshots/mobile-inactive.jpg)
-![Active State](./screenshots/mobile-active.jpg)
+![Inactive State](./screenshots/mobile-inactive.jpeg)
+![Active State](./screenshots/mobile-active.jpeg)
 
 ### Links
 
