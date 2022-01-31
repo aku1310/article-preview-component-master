@@ -13,11 +13,6 @@
     box-sizing: border-box;
 }
 
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Manrope', sans-serif;
     background-color: var(--light-grayish-blue);
